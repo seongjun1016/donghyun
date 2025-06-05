@@ -100,7 +100,7 @@ class Register:
         email = st.text_input("이메일")
         password = st.text_input("비밀번호", type="password")
         name = st.text_input("성명")
-        gender = st.selectbox("성별", ["선택 안함", "남성", "여성"])
+        gender = st.selectbox("성별", ["선택 안함", "남성", "여성",'논바이너리'])
         phone = st.text_input("휴대전화번호")
 
         if st.button("회원가입"):
